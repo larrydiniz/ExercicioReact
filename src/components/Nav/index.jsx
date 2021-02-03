@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import './Nav.css' 
 
 /* export default function Nav(){
@@ -16,9 +17,9 @@ const Nav = () => {
     return (
         <nav>
             <ul>
-                <a href="/"><li>Home</li></a>
-                <a href="/Produto"><li>Produtos</li></a>
-                <a href="/Carrinho"><li>Carrinho</li></a>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/carrinho">Carrinho</Link></li>
+                <li className="menu-item"><Link to= "/produto">Produto</Link></li>
             </ul>
         </nav>
     )

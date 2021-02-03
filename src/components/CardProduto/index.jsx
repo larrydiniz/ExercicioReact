@@ -4,7 +4,6 @@ import {connect} from "react-redux"
 import {addCarrinho} from "../../store/actions/carrinho"
 
 const Card = (props) => { 
-    
     return (
         <div className="card">
             <div id="img">
@@ -20,7 +19,7 @@ const Card = (props) => {
     )
 }
 
-const mapStatetoProps = (state) => {
+const mapStateToProps = (state) => {
     return {
         carrinho: state.carrinho
     }
@@ -35,6 +34,6 @@ const mapDispatchToProps = (dispatch) =>{
     }
 }
 
-export default connect(mapStatetoProps, mapDispatchToProps)(Card)
+export default connect(mapStateToProps, mapDispatchToProps)(Card)
 
 /* export default Card */
