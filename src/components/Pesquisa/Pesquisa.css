@@ -1,0 +1,24 @@
+.pesquisa{
+    margin-bottom: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+input#pesquisa{
+    padding: 0;
+    margin-left: 20px;
+    width: 50%;
+    height: 23px;
+    font-size: 16px;
+    border: #777 solid 1px;
+    border-radius: 10px 0 0 10px;
+}
+
+button#pesquisar{
+    margin: 0;
+    height: 100%;
+    background-color: grey;
+    font-size: 16px;
+    border-radius: 0 10px 10px 0;
+}

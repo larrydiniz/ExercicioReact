@@ -1,0 +1,8 @@
+.produtos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 65vh;
+    overflow: hidden;
+}

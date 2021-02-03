@@ -1,0 +1,32 @@
+nav{
+    height: 50px;
+    width: 100%; 
+}
+
+ul{
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    padding: 0 10px;
+    list-style: none;
+    border-bottom: none;
+    height: 80%;
+}
+
+a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    border-bottom: teal solid 3px;
+}

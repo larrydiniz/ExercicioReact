@@ -1,0 +1,9 @@
+header{
+    background-color: rgb(187, 187, 247);
+    height: 50px;
+}
+
+header h2{
+    margin: 0;
+    text-align: center;
+}
