@@ -6,14 +6,14 @@ import {addCarrinho} from "../../store/actions/carrinho"
 const Card = (props) => { 
     return (
         <div className="card">
-            <div id="img">
+            <div className="img">
                 <img src={props.img} alt="imagem do produto"/>
             </div>
             <h3>{props.nome}</h3>
             <p>{props.valor}</p>
-            <div id="btn">
-                <button>Ver Mais</button> 
-                <button onClick={e => {props.addProduct(props.prod); console.log(props.carrinho)}}>Carrinho</button> 
+            <div className="btn">
+                <button className="mais">Ver Mais</button> 
+                <button className="carrinho" onClick={e => {props.addProduct(props.prod); console.log(props.carrinho)}}>Carrinho</button> 
             </div>
         </div>
     )
