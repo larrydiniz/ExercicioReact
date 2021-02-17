@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from "react"
 import InfosH from "../../components/InfosHome"
-//import Header from "../../components/Header"
 import Footer from "../../components/Footer"
-//import Nav from "../../components/Nav"
 import Card from "../../components/CardProduto"
-//import Pesquisa from "../../components/Pesquisa"
 import './Home.css'
 import axios from "axios"
 
 const Home = () => {
-    /* var NumPage = 0;
-    var CardsList; */
 
     const [products, setProducts] = useState([]) 
 
@@ -35,10 +30,6 @@ const Home = () => {
 
     return (
         <>
-            {/* <Header nome="Larry"/>
-            <Nav />
-            <h1>Home Page</h1>
-            <Pesquisa /> */}
             <InfosH />
             <section className="produtos">
                 <div id="controle">
