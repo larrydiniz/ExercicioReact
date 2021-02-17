@@ -1,8 +1,22 @@
+#root{
+    background-color: #fafafa;
+}
+
 .produtos{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: auto;
-    min-height: 65vh;
+    height: 50vh;
     overflow: hidden;
+}
+
+#controle{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    left: 30px;
 }

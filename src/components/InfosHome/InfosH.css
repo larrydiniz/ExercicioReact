@@ -1,0 +1,14 @@
+.home{
+    background-color: teal;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home img{
+    height: 100%;
+}
+
+#infos{
+    width: 60%;
+}
