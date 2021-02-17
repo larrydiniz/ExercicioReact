@@ -10,7 +10,7 @@ const Home = () => {
     const [products, setProducts] = useState([]) 
 
     const getProducts = () => {
-        axios.get("https://fakestoreapi.com/products")
+        axios.get("https://fakestoreapi.com/products?limit=5")
             .then(res => setProducts(res.data))
             /* .then(res => console.log(res.status)) //pega dados da resposta  */
     }
@@ -31,7 +31,7 @@ const Home = () => {
     return (
         <>
             <InfosH />
-            <section className="produtos">
+            <section className="produtos-h">
                 <div id="controle">
                     <h3>Alguns Produtos</h3>
                 </div>

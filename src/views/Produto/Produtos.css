@@ -1,0 +1,12 @@
+.produtos{
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.nome-pagina{
+    color: black;
+    margin-left: 5%;
+}

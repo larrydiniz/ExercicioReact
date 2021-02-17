@@ -2,7 +2,7 @@
     background-color: #fafafa;
 }
 
-.produtos{
+.produtos-h{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

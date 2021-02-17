@@ -1,6 +1,7 @@
 nav{
     height: 50px;
     width: 100%; 
+    background-color: teal;
 }
 
 ul{
@@ -14,6 +15,7 @@ ul{
 }
 
 li{
+    margin-top: 5px;
     padding: 0 10px;
     list-style: none;
     border-bottom: none;
@@ -21,12 +23,13 @@ li{
 }
 
 a{
-    color: black;
+    color: white;
     font-size: 18px;
     text-decoration: none;
     text-align: center;
+    font-weight: 700;
 }
 
 a:hover{
-    border-bottom: teal solid 3px;
+    border-bottom: white solid 3px;
 }
