@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Atividade proposta
+Desenvolver 3 páginas: <b> Home </b>, <b> Carrinho </b> e <b> Produtos </b>, onde os itens serão adicionados ao carrinho usando estados do Redux. 
+___
+
+Este é um projeto criado com [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
