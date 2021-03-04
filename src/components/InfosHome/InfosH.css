@@ -32,10 +32,17 @@
 
 #produtos{
     background-color: white;
-    color: teal;  
+    color: teal; 
 }
 
 #carrinho{  
     border: 3px white solid;
     color: white;
+}
+#produtos:hover, #carrinho:hover{
+    filter: brightness(0.9);
+}
+
+#btn-home a:hover{
+    border: 0;
 }
